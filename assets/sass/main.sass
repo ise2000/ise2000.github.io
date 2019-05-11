@@ -1,0 +1,98 @@
+$primary: #353535
+$font: #fff
+$link: #ff9900
+$link-hover: #ffc166
+$post: #656565
+@media screen and (max-width: 500px)
+  main, nav, footer, header 
+    width: calc(100vw - 30px)
+
+@media screen and (min-width: 500px) 
+  main, nav, footer, header
+    width: 80vw
+    max-width: 1000px
+
+*
+  margin: 0 auto
+  padding: 0
+body
+  width: 100% 
+  height: 100%
+  position: absolute
+  color: $font
+  font: 18px 'Lato', sans-serif
+  background-color: $primary
+
+nav, footer, header
+  margin: 0 auto
+  text-align: center
+  
+nav 
+  ul 
+    list-style: none
+    margin: 15px 0
+    li 
+      display: inline
+      margin: 0 25px
+
+footer
+  margin-top: 25px
+  margin-bottom: 25px
+  span 
+    display: block
+.header__name
+  font-size: 2em
+  vertical-align: middle
+  line-height: 1em
+  a
+    color: $font
+.header__logo
+  border-radius: 50%
+  width: 70px
+  height: 70px
+  margin: 10px 0
+  vertical-align: middle
+.posts 
+  list-style: none
+  margin-top: 25px
+.post
+  margin-top: 25px
+  text-align: left
+  h2 
+    text-align: left
+.post__head
+  display: flex
+  padding: 0
+  justify-content: space-between
+  margin-bottom: 5px
+
+.post__date
+  color: #858585
+  text-align: left
+  display: block 
+  margin: 0
+  bottom: 0
+  display: flex
+  align-items: flex-end
+
+.post__title 
+  font-size: 1.5em
+  display: block 
+  text-align: left
+  margin: 0 
+.post__content 
+  text-align: justify
+  background: $post
+  padding: 10px
+  background-color: $post
+  border-radius: 7px
+  line-height: 1.5em
+  ul 
+    padding-left: 20px
+
+a 
+  text-decoration: none
+  color: $link
+  transition: 0.5s
+  &:hover
+    color: $link-hover
