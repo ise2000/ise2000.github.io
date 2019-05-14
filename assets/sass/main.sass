@@ -1,5 +1,5 @@
 $background: #555
-$font: #fff
+$font-color: #fff
 $link: #ff9900
 $link-hover: #ffc166
 $post: #656565
@@ -15,19 +15,28 @@ $post: #656565
 *
   margin: 0 auto
   padding: 0
+  
 body
   width: 100% 
   height: 100%
   position: absolute
-  color: $font
+  color: $font-color
   font: 18px 'Lato', sans-serif
+  font-weight: 100
   background-color: $background
-
+  //hiding scroll for IE+10
+  -ms-overflow-style: none
+  //hiding scroll for mozilla
+  overflow: -moz-scrollbars-none
+  //hiding scroll for chrome
+  &::-webkit-scrollbar  
+    width: 0 !important
+  
 nav, footer, header
   margin: 0 auto
   text-align: center
   
-nav 
+nav
   ul 
     list-style: none
     margin: 15px 0
@@ -45,7 +54,7 @@ footer
   vertical-align: middle
   line-height: 1em
   a
-    color: $font
+    color: $font-color
 .header__logo
   border-radius: 50%
   width: 70px
@@ -54,9 +63,9 @@ footer
   vertical-align: middle
 .posts 
   list-style: none
-  margin-top: 25px
+  li:not(:last-child) 
+    margin-bottom: 25px
 .post
-  margin-top: 25px
   text-align: left
   h2 
     text-align: left
@@ -83,7 +92,7 @@ footer
 .post__content 
   text-align: justify
   background: $post
-  padding: 10px
+  padding: 15px
   background-color: $post
   border-radius: 7px
   line-height: 1.5em
@@ -96,3 +105,8 @@ a
   transition: 0.5s
   &:hover
     color: $link-hover
+
+main 
+  h2
+    font-size: 1.5em
+    font-weight: 300
