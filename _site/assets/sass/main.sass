@@ -6,11 +6,28 @@ $post: #656565
 @media screen and (max-width: 500px)
   main, nav, footer, header 
     width: calc(100vw - 30px)
-
+  nav
+    ul 
+      list-style: none
+      margin: 15px 0
+      li 
+        display: inline
+        margin: 0 15px
+  .post__head
+    flex-direction: column
 @media screen and (min-width: 500px) 
   main, nav, footer, header
     width: 80vw
-    max-width: 1000px
+    max-width: 1000px    
+  nav
+    ul 
+      list-style: none
+      margin: 15px 0
+      li 
+        display: inline
+        margin: 0 25px
+  .post__head
+    flex-direction: row
 
 *
   margin: 0 auto
@@ -35,14 +52,12 @@ body
 nav, footer, header
   margin: 0 auto
   text-align: center
-  
-nav
-  ul 
-    list-style: none
-    margin: 15px 0
-    li 
-      display: inline
-      margin: 0 25px
+
+
+main 
+  h2
+    font-size: 1.5em
+    font-weight: 300
 
 footer
   margin-top: 25px
@@ -53,6 +68,7 @@ footer
   font-size: 2em
   vertical-align: middle
   line-height: 1em
+  font-weight: 400
   a
     color: $font-color
 .header__logo
@@ -86,6 +102,7 @@ footer
 
 .post__title 
   font-size: 1.5em
+  font-weight: 400
   display: block 
   text-align: left
   margin: 0 
@@ -105,8 +122,3 @@ a
   transition: 0.5s
   &:hover
     color: $link-hover
-
-main 
-  h2
-    font-size: 1.5em
-    font-weight: 300
