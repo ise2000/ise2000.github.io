@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="/assets/css/main.css">
-        <link rel="icon" href="/images/favicon.png">
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
-        <title>My second Post</title>
-    </head>
-    <body>
-        <header class="header">
-            <a href="/">
-                <img src="/images/logo.jpg" alt="logo" class="header__logo">
-            </a>
-            <div class="header__name"><a href="/">Sergey Ivanov</a></div>
-        </header>
-        <nav class="nav">
-            <ul>
-                <li><a href="/">Home</a>
-                <li><a href="/about.html">About</a>
-                <li><a href="/pomodoro.html">Pomodoro</a>
-            </ul>
-        </nav>
-        <main>
-            <div class="post">
-  <div class="post__head">
-    <div class="post__title">My second Post</div>
-  </div> 
-  <div class="post__content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat mauris vitae odio fringilla lobortis a id arcu. Fusce erat lacus, suscipit eu velit sed, faucibus ornare massa. Praesent pulvinar magna eget purus dictum tincidunt. Nam pharetra at risus et suscipit. Aenean aliquet dictum neque tempus laoreet. Suspendisse imperdiet, nisl et maximus sollicitudin, nulla felis sollicitudin odio, id laoreet ex sapien et quam. Duis posuere efficitur fringilla. Praesent at eros a diam facilisis vulputate vitae sit amet felis. Suspendisse potenti. Mauris vel felis enim. Maecenas vel ligula aliquam, semper erat in, egestas ipsum. In porttitor vel mauris quis vestibulum. Phasellus pretium velit elit. <!--more--></p>
+I"ð<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat mauris vitae odio fringilla lobortis a id arcu. Fusce erat lacus, suscipit eu velit sed, faucibus ornare massa. Praesent pulvinar magna eget purus dictum tincidunt. Nam pharetra at risus et suscipit. Aenean aliquet dictum neque tempus laoreet. Suspendisse imperdiet, nisl et maximus sollicitudin, nulla felis sollicitudin odio, id laoreet ex sapien et quam. Duis posuere efficitur fringilla. Praesent at eros a diam facilisis vulputate vitae sit amet felis. Suspendisse potenti. Mauris vel felis enim. Maecenas vel ligula aliquam, semper erat in, egestas ipsum. In porttitor vel mauris quis vestibulum. Phasellus pretium velit elit. <!--more--></p>
 
 <p>Donec pellentesque congue nibh sed hendrerit. Curabitur arcu sapien, rhoncus non tincidunt vitae, mattis et turpis. Morbi eget gravida est. Phasellus sit amet lacus sapien. Nam dignissim maximus orci in euismod. Nunc efficitur rhoncus erat at sodales. Aliquam fermentum lectus vel libero fringilla lobortis. Vivamus placerat orci id sapien ullamcorper, eget mollis diam dictum. Cras id massa erat. Donec ac porta erat, eget iaculis risus. Suspendisse volutpat gravida massa eget fringilla. Suspendisse id sem ut sem finibus pellentesque. Nunc a sem non turpis scelerisque maximus.</p>
 
@@ -37,12 +7,4 @@
 <p>Duis suscipit arcu massa. Etiam interdum, ex eget faucibus vulputate, quam nulla finibus diam, id iaculis arcu ipsum sed velit. Morbi nec nisl nec mauris cursus malesuada. Praesent fringilla nisi sit amet enim facilisis, eget cursus felis maximus. Nam ac mattis lectus. Suspendisse gravida velit at ante aliquet, in dignissim nibh porttitor. Quisque et sodales ligula, sed facilisis eros.</p>
 
 <p>Duis augue erat, ultrices a gravida sed, convallis sit amet libero. Donec laoreet porta mattis. Praesent lacinia leo a tempus pellentesque. Cras ligula tortor, viverra in felis vitae, malesuada tempus mauris. In et diam id orci iaculis volutpat. Maecenas at leo ac lacus blandit molestie et sit amet risus. Sed tristique pharetra diam, sed consectetur odio. Donec quam nisi, elementum at justo quis, placerat tempus nulla. Pellentesque porta quam finibus dui consectetur, nec auctor ante suscipit. Integer purus ligula, faucibus non augue at, tincidunt sollicitudin augue. Phasellus accumsan mi ac neque vehicula, at volutpat mauris bibendum. Morbi vehicula tempus ex a accumsan. Fusce aliquet, ipsum et mattis tristique, massa ligula vehicula lacus, vel tempus turpis tellus at odio. Integer mattis luctus molestie. Pellentesque accumsan, turpis ut volutpat euismod, diam mi fermentum nunc, id placerat ex risus tincidunt nisi. Nam eu felis mi.</p>
-</div>
-</div>
-        </main>
-        <footer class="footer">
-            <span>&copy; 2020 Sergey Ivanov</span>
-            <span>Powered by <a href="https://github.io">GitHub Pages</a></span>
-        </footer>
-    </body>
-</html>
+:ET
