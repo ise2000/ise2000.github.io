@@ -113,7 +113,7 @@ footer span {
 }
 
 .post__date {
-  color: #3a3a3a;
+  color: #cbcbcb;
   text-align: left;
   display: block;
   margin: 0;
@@ -133,7 +133,7 @@ footer span {
 .post__content {
   text-align: justify;
   padding: 15px;
-  background-color: #dbdbdb;
+  background-color: #efefef;
   border-radius: 7px;
   line-height: 1.5em;
 }
