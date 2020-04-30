@@ -1,5 +1,5 @@
-const TIME = 2;
-const BREAK_TIME = 2;
+const TIME = 25*60;
+const BREAK_TIME = 5*60;
 let time = TIME; 
 let isActive = false;
 var intervalID;
