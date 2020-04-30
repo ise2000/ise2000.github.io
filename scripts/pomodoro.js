@@ -18,7 +18,7 @@ function tick(interval) {
         startBreak();
     }
     document.getElementById("time").innerHTML = timeToString(time);
-}jek
+}
 
 function startCountdown() {
     if (!isActive) {
@@ -35,7 +35,7 @@ function startCountdown() {
     }
 }
 
-window.onkeyup = function(event) {
+document.onkeyup = function(event) {
     if (event.keyCode === 32) {
         startCountdown();
     }
