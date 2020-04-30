@@ -1,5 +1,5 @@
 ---
-title: Website revival
+title: Pomodoro tracker
 layout: post
 excerpt_separator: <!--more-->
 ---
