@@ -1,5 +1,5 @@
-const TIME = 25*60;
-const BREAK_TIME = 5*60;
+const TIME = 2;
+const BREAK_TIME = 2;
 let time = TIME; 
 let isActive = false;
 var intervalID;
@@ -18,7 +18,7 @@ function tick(interval) {
         startBreak();
     }
     document.getElementById("time").innerHTML = timeToString(time);
-}
+}jek
 
 function startCountdown() {
     if (!isActive) {
