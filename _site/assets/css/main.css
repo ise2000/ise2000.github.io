@@ -150,4 +150,25 @@ a:hover {
   color: #ffc166;
 }
 
+.pomodoro {
+  text-align: center;
+}
+.time {
+  color: red;
+  font-size: 5em;
+  font-family: 'Roboto Mono', monospace;
+}
+.buttons button {
+  background-color:white;
+  border: 1px solid red;
+  color: #123123;
+  padding: 0px 10px;
+  margin: 0;
+  border-radius: 5px;
+  font-size: 2em;
+}
+
+.tip {
+  font-style: italic;
+}
 /*# sourceMappingURL=main.css.map */
