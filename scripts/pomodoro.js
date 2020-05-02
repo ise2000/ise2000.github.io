@@ -1,11 +1,18 @@
-const TIME = 25*60;
-const BREAK_TIME = 5*60;
+const TIME = 25*60; // time of pomodoro, sec
+const BREAK_TIME = 5*60; //time of break, sec
 let time = TIME; 
-let isActive = false;
-var intervalID;
+let isActive = false; // is pomodoro active at the moment
+var intervalID; 
 
 window.onload = () => {
-    document.getElementById("time").innerHTML = timeToString(time);
+    document.getElementById("time").innerHTML = timeToString(time); // set the time when window is loaded 
+}
+
+// countdown start when the space key is pressed
+document.onkeyup = function(event) {
+    if (event.keyCode === 32) {
+        startCountdown(); 
+    }
 }
 
 function tick(interval) {
@@ -35,12 +42,6 @@ function startCountdown() {
     }
 }
 
-document.onkeyup = function(event) {
-    if (event.keyCode === 32) {
-        startCountdown();
-    }
-}
-
 function timeToString(time){
     let minutes = Math.floor(time / 60);
     let seconds = time % 60;
@@ -64,6 +65,5 @@ function startBreak() {
         document.getElementById("time").innerHTML = timeToString(time);
         document.getElementById("time").style.color = "#ff0000";
         document.getElementById("startButton").innerHTML = "start";
-    }}, 1000);
-    
+    }}, 1000);   
 }

@@ -12,5 +12,3 @@ Here are my contacts and links:
 - [Vkontakte](https://vk.com/seri0zha)
 
 For any questions, please, contact me by email: iv.se32@gmail.com.
-
-
