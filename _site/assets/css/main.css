@@ -2,10 +2,16 @@
   main, nav, footer, header {
     width: calc(100vw - 30px);
   }
-
-
   .post__head {
     flex-direction: column;
+  }
+  nav ul {
+    list-style: none;
+    margin: 15px 0;
+  }
+  nav ul li {
+    display: inline;
+    margin: 0 5px;
   }
 }
 @media screen and (min-width: 500px) {
