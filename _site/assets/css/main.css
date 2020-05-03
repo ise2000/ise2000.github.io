@@ -63,7 +63,7 @@ main h2 {
   font-weight: 300;
 }
 
-footer {
+footer, header {
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -129,7 +129,7 @@ footer span {
 }
 
 .post__content {
-  text-align: justify;
+  text-align: left;
   padding: 15px;
   background-color: #efefef;
   border-radius: 7px;
@@ -179,44 +179,4 @@ a:hover {
 .tip {
   font-style: italic;
 }
-
-.colorpicker {
-  text-align: center;
-  border-radius: 30px;
-  max-width: 60%;
-  padding: 40px 20px;
-}
-
-.colorpicker span {
-  display: inline-block;
-  color: #000;
-  padding: 5px;
-  font-size: 1.5em;
-}
-
-.colorpicker span:hover { 
-  background-color: #CCC;
-  border-radius: 5px;
-  transition: 0.8s;
-  cursor: pointer;
-}
-
-.colorpicker__sliders {
-  text-align: center;
-  width: 25%;
-  min-width: 150px;
-  background-color: #AAA;
-  border-radius: 20px;
-}
-
-.slider {
-  writing-mode: bt-lr; /* IE */
-  -webkit-appearance: slider-vertical;
-  width: 10px;
-  height: 255px;
-  padding: 0 5px;
-  margin: 15px;
-
-}
-
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,54 @@
+@media screen and (min-width: 500px) {
+  nav, footer {
+    width: 500px;
+  }
+}
+
+.colorpicker {
+  text-align: center;
+  border-radius: 30px;
+  max-width: 60%;
+  padding: 40px 20px;
+}
+
+.colorpicker span {
+  display: inline-block;
+  color: #000;
+  padding: 5px;
+  font-size: 1.5em;
+}
+
+.colorpicker span:hover { 
+  background-color: #CCC;
+  border-radius: 5px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.colorpicker__sliders {
+  text-align: center;
+  width: 25%;
+  min-width: 150px;
+  background-color: #AAA;
+  border-radius: 20px;
+}
+
+.slider {
+  writing-mode: bt-lr; /* IE */
+  -webkit-appearance: slider-vertical;
+  width: 10px;
+  height: 255px;
+  padding: 0 5px;
+  margin: 15px;
+}
+
+.nav, footer {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 5px auto;
+}
+
+.nav ul {
+  margin: 0;
+}
