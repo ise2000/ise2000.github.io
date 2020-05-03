@@ -1,0 +1,13 @@
+---
+title: Color picker
+layout: colorPicker
+---
+
+<div class="colorpicker" id="colorpicker">
+    <div class="colorpicker__sliders">
+        <input class="slider" type="range" oninput="redChange(this.value)" orient="vertical" min="0" max="255" step="1" value="255"><!--
+        --><input class="slider" type="range" oninput="greenChange(this.value)" orient="vertical" min="0" max="255" step="1" value="255"><!--
+        --><input class="slider" type="range" oninput="blueChange(this.value)" orient="vertical" min="0" max="255" step="1" value="255"> 
+        <span onclick="copyText()" id="colorHex">#ffffff</span>
+    </div>
+</div>
