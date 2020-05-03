@@ -172,4 +172,30 @@ a:hover {
 .tip {
   font-style: italic;
 }
+
+.colorpicker {
+  text-align: center;
+  background-color: #333333;
+  border-radius: 30px;
+  max-width: 60%;
+  padding: 40px 20px;
+  border: 5px solid #000;
+}
+
+.colorpicker__sliders {
+  text-align: center;
+  width: 25%;
+
+  background-color: #666666;
+  border-radius: 20px;
+}
+
+input[type=range][orient=vertical] {
+  writing-mode: bt-lr; /* IE */
+  -webkit-appearance: slider-vertical; /* WebKit */
+  width: 8px;
+  height: 255px;
+  padding: 0 5px;
+  margin: 5px;
+}
 /*# sourceMappingURL=main.css.map */

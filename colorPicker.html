@@ -2,3 +2,11 @@
 title: Color picker
 layout: default
 ---
+<script type="text/javascript" src="scripts/colorPicker.js"></script>
+<div class="colorpicker" id="colorpicker">
+    <div class="colorpicker__sliders">
+        <input type="range" oninput="redChange(this.value)" orient="vertical" min="0" max="255" step="1" value="0"> 
+        <input type="range" oninput="greenChange(this.value)" orient="vertical" min="0" max="255" step="1" value="0"> 
+        <input type="range" oninput="blueChange(this.value)" orient="vertical" min="0" max="255" step="1" value="0"> 
+    </div>
+</div>
